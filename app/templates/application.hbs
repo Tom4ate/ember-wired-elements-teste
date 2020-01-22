@@ -1,5 +1,11 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<WiredCard class="wirde" >
+  <h1>{{ eu }}</h1>
 
-{{outlet}}
+  {{outlet}}
+  {{!-- <WiredInput placeholder="Atualizar"></WiredInput> --}}
+  {{!-- <wired-button>Click Me</wired-button> --}}
+
+</WiredCard>
+
+
+<Input @value={{eu}} />
