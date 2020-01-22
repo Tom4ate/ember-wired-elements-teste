@@ -5,9 +5,17 @@
   {{!-- <WiredInput placeholder="Atualizar"></WiredInput> --}}
   {{!-- <wired-button>Click Me</wired-button> --}}
 
+  <WiredSpiner>
+
+  </WiredSpiner>
 </WiredCard>
+{{log "template log " eu}}
 
+<Input
+ @value={{eu}}
+ />
 
-<Input @value={{eu}} />
-
-<WiredInput @value={{eu}} />
+<WiredInput
+  @value={{eu}}
+  @name="nome-input"
+/>
